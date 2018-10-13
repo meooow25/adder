@@ -26,5 +26,8 @@ class AdderTest(unittest.TestCase):
         sum_ = sum(nums)
         self.assertEqual(sum_, adder_logic.add(*nums))
 
+    def test_bad(self):
+        self.assertEqual(1, adder_logic.add(1, 1))
+
 if __name__ == '__main__':
     unittest.main()
