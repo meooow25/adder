@@ -13,5 +13,8 @@ class AdderTest(unittest.TestCase):
     def test_add3(self):
         self.assertEqual(102, adder_logic.add(2, 60, 40))
 
+    def test_add2neg(self):
+        self.assertEqual(-2, adder_logic.add(1, -3))
+
 if __name__ == '__main__':
     unittest.main()
