@@ -7,6 +7,6 @@ parser.add_argument('nums', type=int, nargs='+', help='Integer to add')
 args = parser.parse_args()
 
 sum_ = adder_logic.add(*args.nums)
-product_ = adder_logic.mult(*args.num)
+product_ = adder_logic.mult(*args.nums)
 
 print('The sum is {} and the product is {}'.format(sum_, product_))
