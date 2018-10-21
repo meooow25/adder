@@ -2,6 +2,7 @@ import unittest
 
 from adder import adder_logic
 
+
 class AdderTest(unittest.TestCase):
 
     def test_add1(self):
@@ -28,6 +29,7 @@ class AdderTest(unittest.TestCase):
 
     def test_fixed(self):
         self.assertEqual(2, adder_logic.add(1, 1))
+
 
 if __name__ == '__main__':
     unittest.main()

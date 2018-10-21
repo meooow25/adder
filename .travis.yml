@@ -7,5 +7,8 @@ matrix:
     - python: 3.7
       dist: xenial
       sudo: true
+install:
+  - pip install flake8
 script:
-  python -m unittest
+  - python -m flake8
+  - python -m unittest
