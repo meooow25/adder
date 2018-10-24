@@ -5,4 +5,4 @@ def mult(*args):
     for arg in args:
         product *= arg
     return product
- Pro
+    
